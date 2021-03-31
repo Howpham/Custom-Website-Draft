@@ -1,0 +1,145 @@
+/* Text Styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Heebo', sans-serif;
+  }
+  p {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  
+  .btn {
+    background-color: #D4ECF2;
+    border: 0px;
+    padding-bottom: 3px;
+  }
+  
+  .btn:hover{
+    background-color: #b8dbed;
+  }
+  
+  .btn-success {
+    background-color: #2C2C34 !important;
+  }
+  
+  .btn-success:hover {
+    background-color: #b8dbed !important;
+  }
+  .btn-success:focus{
+    background-color: #494850 !important;
+    border: 0px !important;
+  }
+  
+  .btn-success:visited{
+    background-color: #CB7B7B;
+  }
+  
+  .customNav {
+    position: absolute;
+    width: 100%;
+    background-color: #7099B0 !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  .dropdown-menu {
+    background: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8YmFja2dyb3VuZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+    background-color: transparent !important;
+    background-size: cover;
+  }
+  
+  .dropdown-item:focus, .dropdown-item:hover {
+   color: #16181b;
+    text-decoration: none;
+    background: #000000;
+  }
+  
+  .customNav a {
+    color: #494850 !important;
+  }
+  
+  .navCTA {
+    font-size: 10px;
+    background-color: #000000;
+    border: 1px solid #000000;
+  }
+  
+  .jumbotron {
+    background-image: url(https://images.unsplash.com/photo-1583162520080-73d4a743a776?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: #EFF1F3;
+    text-align: center;
+  }
+  
+  .content {
+    padding: 50px;
+  }
+  
+  .sectionHeading {
+    text-align: center;
+  }
+  
+  .showsNear {
+    padding: 0px 30px 30px 30px;
+  }
+  
+  .cardContainer {
+    text-align: center;
+  }
+  
+  .signUp .form {
+    margin: 35px auto;
+    background-color: #f2f2f2;
+    padding: 25px;
+    border-radius: 7px;
+  }
+  
+  .emailContain {
+    background-color: #494850;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+  }
+  
+  form {
+    width: 500px;
+    margin: 35px auto;
+    padding: 45px;
+    border: 1px solid #F2F2F2;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+  }
+  
+  body {
+    background: linear-gradient(45deg,  #D4ECF2 15%, #B8DBED, #7099B0 90%);
+  }
